@@ -58,11 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
         crossAxisCount: 3,
         children: getImages(),
       ),
-      // Row(children: [getMainImage(), getMainImage(), getMainImage()]),
-      // Row(children: [getMainImage(), getMainImage(), getMainImage()]),
-      // Row(children: [getMainImage(), getMainImage(), getMainImage()]),
-      // Row(children: [getMainImage(), getMainImage(), getMainImage()]),
-      // Row(children: [getMainImage(), getMainImage(), getMainImage()]),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
